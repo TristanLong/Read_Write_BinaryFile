@@ -6,7 +6,7 @@ namespace Buoi5_WinForms
     // datagridview không liên kết với dictionary 
     public partial class FormStudentManagement : Form
     {
-        private List<Student> list;
+        private Dictionary<string, Student> list;
         public FormStudentManagement()
         {
             InitializeComponent();
@@ -14,12 +14,12 @@ namespace Buoi5_WinForms
 
         private void FormStudentManagement_Load(object sender, EventArgs e)
         {
-            list = new List<Student>();
+            list = new Dictionary<string, Student>();
 
             //// Read file bản 6.0 
             //FileStream file = new FileStream("student.dat", FileMode.Open);
             //BinaryFormatter binaryFile = new BinaryFormatter(); // Không sai chỉ là 8.0 bị lỗi phải về 6.0
-            //list = binaryFile.Deserialize(file) as List<Student>;
+            //list = binaryFile.Deserialize(file) as Dictionary<string, Student>;
             //file.Close();
             //Show();
 
@@ -39,7 +39,7 @@ namespace Buoi5_WinForms
                             Birthday = DateTime.FromBinary(reader.ReadInt64()), // Đọc từ nhị phân
                             Gender = reader.ReadBoolean()
                         };
-                        list.Add(student);
+                        list.Add(student.ID, student);
                     }
                 }
                 Show();
@@ -55,8 +55,8 @@ namespace Buoi5_WinForms
         {
             // Liên kết giữa dữ liệu đối tượng với giao diện  
             BindingSource bs = new BindingSource();
-            bs.DataSource = list; // Liên kết bindingsource với dữ liệu
-            dgvList.DataSource = bs;// Liên kết bindingsource với data grid view 
+            bs.DataSource = list.Values.ToList(); // Dictionary xử dụng này 
+            dgvList.DataSource = bs;
 
             // Tạo liên kết từng cột bên Winforms 
 
@@ -85,7 +85,7 @@ namespace Buoi5_WinForms
             student.Birthday = dtpBirthday.Value;
             student.Gender = rdoMen.Checked;
 
-            list.Add(student);
+            list.Add(student.ID, student);
             Show();
         }
 
@@ -96,21 +96,8 @@ namespace Buoi5_WinForms
             {
                 // Lấy MSSV ở dòng mình chọn (lấy giá trị cột[0])
                 string ID = row.Cells[0].Value.ToString();
-                Student x = null;
-                foreach (Student a in list)
-                {
-                    if (a.ID == ID)
-                    {
-                        x = a;
-                        break;
-                    }
-                }
-
-                if (x != null)
-                {
-                    list.Remove(x);
+                if (list.Remove(ID) == true)
                     break;
-                }
             }
             Show();
         }
@@ -123,54 +110,29 @@ namespace Buoi5_WinForms
             {
                 // Lấy MSSV ở dòng mình chọn (lấy giá trị cột[0])
                 string ID = row.Cells[0].Value.ToString();
-                Student x = null;
-                foreach (Student a in list)
-                {
-                    if (a.ID == ID)
-                    {
-                        x = a;
-                        break;
-                    }
-                }
+                Student x = list[ID];
+                txtID.Text = x.ID;
+                txtName.Text = x.Name;
+                txtAdress.Text = x.Adress;
+                dtpBirthday.Value = x.Birthday;
 
-                if (x != null)
-                {
-                    txtID.Text = x.ID;
-                    txtName.Text = x.Name;
-                    txtAdress.Text = x.Adress;
-                    dtpBirthday.Value = x.Birthday;
-
-                    if (x.Gender)
-                        rdoMen.Checked = true;
-                    else rdoWomen.Checked = true;
-
-                    break;
-                }
+                if (x.Gender == true) rdoMen.Checked = true;
+                else rdoWomen.Checked = true;
+                break;
             }
         }
 
         private void btnAlter_Click(object sender, EventArgs e)
         {
             string ID = txtID.Text;
-            Student x = null;
-            foreach (Student a in list)
-            {
-                if (a.ID == ID)
-                {
-                    x = a;
-                    break;
-                }
-            }
-
-            if (x != null)
-            {
-                x.Name = txtName.Text;
-                x.Adress = txtAdress.Text;
-                x.Gender = rdoMen.Checked;
-                x.Birthday = dtpBirthday.Value;
-
-                Show();
-            }
+            Student x = list[ID];
+            
+            x.Name = txtName.Text;
+            x.Adress = txtAdress.Text;
+            x.Gender = rdoMen.Checked;
+            x.Birthday = dtpBirthday.Value;
+            
+            Show();
         }
 
         private void btnWriteBinaryFile_Click(object sender, EventArgs e)
@@ -187,8 +149,10 @@ namespace Buoi5_WinForms
             using (FileStream fs = new FileStream("student.dat", FileMode.Create, FileAccess.Write))
             using (BinaryWriter writer = new BinaryWriter(fs))
             {
-                foreach (var student in list)
+                foreach (var keyValue in list)
                 {
+                    Student student = keyValue.Value; // Lấy đối tượng Student từ phần Value của KeyValue
+
                     writer.Write(student.ID);
                     writer.Write(student.Name);
                     writer.Write(student.Adress);
@@ -200,3 +164,4 @@ namespace Buoi5_WinForms
         }
     }
 }
+
