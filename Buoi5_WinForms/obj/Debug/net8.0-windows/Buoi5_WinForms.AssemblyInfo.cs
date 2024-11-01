@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Buoi5_WinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4eb547eb47ca07d3ef90de9106f04465eae6f42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44824356847f83b528eb0e02f88841eb173e2ac0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Buoi5_WinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Buoi5_WinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

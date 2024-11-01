@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\",
+  "WorkspaceRootPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|d:\\university_stu\\nam3\\oop\\lythuyet\\buoi6_winforms - dictionary\\buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|d:\\university_stu\\nam3\\oop\\lythuyet\\buoi7_tonghop - dictionary\\buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|solutionrelative:buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|d:\\university_stu\\nam3\\oop\\lythuyet\\buoi6_winforms - dictionary\\buoi5_winforms\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|d:\\university_stu\\nam3\\oop\\lythuyet\\buoi7_tonghop - dictionary\\buoi5_winforms\\chandlestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|solutionrelative:buoi5_winforms\\chandlestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|d:\\university_stu\\nam3\\oop\\lythuyet\\buoi7_tonghop - dictionary\\buoi5_winforms\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|solutionrelative:buoi5_winforms\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{88EC4BE5-E2C2-4F65-A5D1-DA743D38B476}|Buoi5_WinForms\\Buoi5_WinForms.csproj|solutionrelative:buoi5_winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,17 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 39,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CHandleStudent.cs",
+              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\CHandleStudent.cs",
+              "RelativeDocumentMoniker": "Buoi5_WinForms\\CHandleStudent.cs",
+              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\CHandleStudent.cs",
+              "RelativeToolTip": "Buoi5_WinForms\\CHandleStudent.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwIYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:32:41.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Student.cs",
-              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Student.cs",
+              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Student.cs",
               "RelativeDocumentMoniker": "Buoi5_WinForms\\Student.cs",
-              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Student.cs",
+              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Student.cs",
               "RelativeToolTip": "Buoi5_WinForms\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:58:08.232Z",
               "EditorCaption": ""
@@ -41,23 +58,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Form1.cs",
+              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Form1.cs",
               "RelativeDocumentMoniker": "Buoi5_WinForms\\Form1.cs",
-              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Form1.cs",
+              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Form1.cs",
               "RelativeToolTip": "Buoi5_WinForms\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv4YAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:57:10.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Form1.cs",
+              "DocumentMoniker": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Form1.cs",
               "RelativeDocumentMoniker": "Buoi5_WinForms\\Form1.cs",
-              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms\\Buoi5_WinForms\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\Buoi6_WinForms\\Buoi5_WinForms\\Form1.cs [Design]",
+              "ToolTip": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop\\Buoi5_WinForms\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\Buoi7_TongHop\\Buoi5_WinForms\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:56:03.045Z"
             }

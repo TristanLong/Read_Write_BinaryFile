@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj": {}
+    "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj": {}
   },
   "projects": {
-    "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj": {
+    "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj",
+        "projectUniqueName": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj",
         "projectName": "Buoi5_WinForms",
-        "projectPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj",
+        "projectPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\Buoi5_WinForms.csproj",
         "packagesPath": "C:\\Users\\trieu\\.nuget\\packages\\",
-        "outputPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi6_WinForms - Dictionary\\Buoi5_WinForms\\obj\\",
+        "outputPath": "D:\\University_STU\\Nam3\\OOP\\LyThuyet\\Buoi7_TongHop - Dictionary\\Buoi5_WinForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
